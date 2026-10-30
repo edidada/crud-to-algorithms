@@ -1,0 +1,21 @@
+[submodule "notes/clrs"]
+	path = notes/clrs
+	url = https://github.com/gzc/CLRS
+[submodule "notes/algorithm-design"]
+	path = notes/algorithm-design
+	url = https://github.com/Sullivan07043/AlgoStudy
+[submodule "notes/programming-pearls"]
+	path = notes/programming-pearls
+	url = https://github.com/adijo/programming-pearls
+[submodule "notes/taocp"]
+	path = notes/taocp
+	url = https://github.com/QuantamHD/TAOCP-Solutions
+[submodule "notes/algorithm-design-manual"]
+	path = notes/algorithm-design-manual
+	url = https://github.com/nitely/algo-design-manual-notes
+[submodule "notes/coding-interviews"]
+	path = notes/coding-interviews
+	url = https://github.com/bryceustc/CodingInterviews
+[submodule "notes/coding-interview"]
+	path = notes/coding-interview
+	url = https://github.com/doocs/coding-interview
