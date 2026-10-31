@@ -19,3 +19,22 @@
 [submodule "notes/coding-interview"]
 	path = notes/coding-interview
 	url = https://github.com/doocs/coding-interview
+[submodule "notes/platforms/atcoder"]
+	path = notes/platforms/atcoder
+	url = https://github.com/kenkoooo/AtCoderProblems
+[submodule "notes/platforms/ccf-csp"]
+	path = notes/platforms/ccf-csp
+	url = https://github.com/we1005/CCF-CSP-and-PAT-solution
+[submodule "notes/platforms/codeforces"]
+	path = notes/platforms/codeforces
+	url = https://github.com/icecold009/codeforces-grind
+[submodule "notes/platforms/pat"]
+	path = notes/platforms/pat
+	url = https://github.com/YingzhuWei/PAT
+[submodule "notes/platforms/codeup"]
+	path = notes/platforms/codeup
+	url = https://github.com/ArraryChen/Codeup_Coding
+[submodule "notes/platforms/leetcode"]
+	path = notes/platforms/leetcode
+	url = https://github.com/doocs/leetcode
+	active = true
