@@ -241,10 +241,16 @@
 
 ## 6. 书单（含 ISBN）
 
+> 国外原版优先：英文原版社区勘误/配套资源最全，推荐为主；中文版作为对照。
+
 | 书名 | ISBN | 用在哪 |
 | --- | --- | --- |
 | 《算法导论（原书第 3 版）》 CLRS | 9787111407010 | 总纲：树/哈希/排序/复杂度 |
+| Cormen et al., *Introduction to Algorithms* 4th ed（英文最新版） | 9780262046305 | 同上，国外原版最新 |
+| Erickson, *Algorithms*（免费在线 jeffe.cs.illinois.edu） | 9780999282922 | 数据结构与复杂度的现代开源教材 |
+| Dasgupta, Papadimitriou & Vazirani, *Algorithms* | 9780073523408 | 算法思想（随机化/草图思维）的国外经典 |
 | *Designing Data-Intensive Applications*（DDIA）英文 1 版 | 9781449373320 | 全景串联本文档所有算法 |
+| Kleppmann & Riccomini, *DDIA* 2nd ed（2025 英文新版） | 9781098119058 | 最新版补充流处理/共识新范式 |
 | 《数据密集型应用系统设计》DDIA 简中 | 9787519821968 | 同上，中文版（电力出版社） |
 | *Database Internals*（Petrov） | 9781492040347 | B 树/LSM/共识实现细节 |
 | *Mining of Massive Datasets* 3rd（Leskovec 等） | 9781108476348 | 大数据算法（SimHash/LSH/流摘要/Spark） |
@@ -256,6 +262,11 @@
 | *Elements of Information Theory* 2nd（Cover & Thomas） | 9780471241959 | 熵/熵率/LZ 编码定理 |
 | *Convex Optimization*（Boyd & Vandenberghe） | 9780521833783 | 调度/优化的硕博延伸 |
 | *Kafka: The Definitive Guide* | 9781491936160 | Kafka 架构速览 |
+| *Learning Spark* 2nd（Damji 等，Databricks） | 9781492050049 | Spark Shuffle/CBO 实战 |
+| *Streaming Systems*（Akidau 等，Beam/Flink 语义） | 9781491983874 | Watermark/窗口/精确一次 |
+| *Redis in Action*（Carlson, Manning） | 9781617290855 | SortedSet 跳表/HLL 的实现语境 |
+| *Understanding Compression*（Collet & Sison-Liu） | 9781449362423 | LZ4/Zstd 生态的压缩原理 |
+| *Systems Performance* 2nd（Gregg, Addison-Wesley） | 9780136820154 | 磁盘/内存 I/O 成本与系统观测 |
 
 ---
 
