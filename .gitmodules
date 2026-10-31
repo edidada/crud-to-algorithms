@@ -38,3 +38,6 @@
 	path = notes/platforms/leetcode
 	url = https://github.com/doocs/leetcode
 	active = true
+[submodule "third_party/math"]
+	path = third_party/math
+	url = https://github.com/edidada/math
