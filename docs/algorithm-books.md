@@ -1,6 +1,6 @@
 # 算法书单（书名 + ISBN）
 
-> 对应读书笔记已以 git submodule 形式存放在 `notes/` 目录下，运行 `scripts/init-submodules.sh`（或 `.bat`）即可拉取。
+> 读书笔记 submodule 组（原挂载于 `notes/`）已移除，本文件仅保留书名 + ISBN 作参考。
 
 | 书名 | ISBN |
 | --- | --- |

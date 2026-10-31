@@ -161,7 +161,7 @@ def fft(a):                       # a: 系数列表，长度为 2 的幂
 ### 3.5 深入路线
 
 - 入门：看懂"蝴蝶操作"这张图，先会调用 numpy.fft。
-- 进阶：算法导论第 30 章（多项式与 FFT），配套 `notes/clrs` 子模块。
+- 进阶：算法导论第 30 章（多项式与 FFT，可配合 CLRS 原书）。
 - 硕博级：CTFFT（Cooley–Tukey 的各种变体）、NTT 与多项式卷积在竞赛/密码学中的应用；信号处理方向读《Understanding Digital Signal Processing》。
 - 数学笔记：见 `third_party/math` 中复数与单位根部分。
 
@@ -182,6 +182,6 @@ def fft(a):                       # a: 系数列表，长度为 2 的幂
 1. **Week 1–2**：补微积分与线性代数 → 手推两层网络的反向传播（不使用框架）。
 2. **Week 3–4**：补概率 → 写出蒙特卡洛估 π，再读 Ray Tracing in One Weekend 第一部。
 3. **Week 5**：补复数与单位根 → 手写出上面 20 行的递归 FFT。
-4. 全程对照阅读 `third_party/math` 中的数学笔记，以及本仓库 `notes/` 下的各算法书 submodule（如 CLRS 第 30 章对应 FFT，第 4 章对应分治）。
+4. 全程对照阅读 `third_party/math` 中的数学笔记，以及 CLRS 第 30 章对应 FFT、第 4 章对应分治。
 
 > 记住：这三个算法的"数学难"不是符号游戏，而是**用更深的模型换来上千倍的性能或能力**——和你在业务里"加个索引换来 1000 倍查询速度"是同一种思维。

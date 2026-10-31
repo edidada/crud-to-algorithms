@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 set -e
-# 算法书单读书笔记 submodule 初始化脚本
-# 默认直接 git submodule add（需能访问 github.com）
-# 如需镜像加速（本仓库初始提交即通过 gitclone.com 添加），先执行：
-#   export GITCFG='-c url."https://gitclone.com/github.com/".insteadOf="https://github.com/"'
+# 学习资料 submodule 初始化脚本
+# 说明：notes/ 读书/平台笔记子模块已于 2026-10-31 移除，当前仅保留数学笔记。
+# 如需镜像加速（可选）：export GITCFG='-c url."https://gitclone.com/github.com/".insteadOf="https://github.com/"'
 GITCFG="${GITCFG:-}"
 
 add() {
@@ -16,12 +15,6 @@ add() {
   fi
 }
 
-add notes/algorithm-design         https://github.com/Sullivan07043/AlgoStudy
-add notes/programming-pearls       https://github.com/adijo/programming-pearls
-add notes/taocp                    https://github.com/QuantamHD/TAOCP-Solutions
-add notes/algorithm-design-manual  https://github.com/nitely/algo-design-manual-notes
-add notes/coding-interviews        https://github.com/bryceustc/CodingInterviews
-add notes/coding-interview         https://github.com/doocs/coding-interview
-add notes/clrs                     https://github.com/gzc/CLRS
+add third_party/math               https://github.com/edidada/math
 
 git submodule update --init --recursive
