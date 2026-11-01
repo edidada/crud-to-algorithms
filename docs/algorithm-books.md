@@ -1,6 +1,6 @@
 # 算法书单（书名 + ISBN）
 
-> 读书笔记 submodule 组（原挂载于 `notes/`）已移除，本文件仅保留书名 + ISBN 作参考。
+> 读书笔记 submodule 原挂载于 `notes/`，**现已整体迁移至 `third_party/`**（commit sha 与迁移前一致）。
 
 | 书名 | ISBN |
 | --- | --- |
